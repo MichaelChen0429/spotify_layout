@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://kit.fontawesome.com/3a6cb10435.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		.footer{
+			display: flex;
+			justify-content: space-between;
+			margin: 10px;
+		}
+		.footer_left{
+			width: 30%;
+			display: flex;
+
+		}
+		.footer_left_word{
+			display: flex;
+			flex-direction: column;
+			margin-left: 8px;
+			margin-right: 8px;
+		}
+		.footer_mid{
+			width: 40%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.footer_mid_time{
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+		}
+		.footer_right{
+			width: 30%;
+			justify-content: flex-end;
+			align-items: center;
+			display: flex;
+		}
+		.footer_right_icon{
+
+		}
+		.footer_progress{
+			height: 5px;
+      		background-color: #e9ecef;
+      		position: relative;
+      		width: 85%;
+		}
+		.footer_progress-active{
+      		height: 100%;
+      		position: absolute;
+      		background-color: grey;
+
+    	}
+    	.footer_icon{
+    		margin-right: 8px;
+    		margin-left: 8px
+    	}
+	</style>
+</head>
+<body>
+	<div class="footer">
+		<div class="footer_left">
+			<img src="Song.jpg"width="40" height="40">
+			<div class="footer_left_word">
+				<div>Raincoat...</div>
+				<div>Kieron...</div>
+			</div>
+			<i class="far fa-heart footer_icon"></i>
+			<i class="fas fa-ban footer_icon"></i>
+		</div>
+		<div class="footer_mid">
+			<div>
+				<i class="fas fa-exchange-alt footer_icon"></i>
+				<i class="fas fa-step-backward footer_icon"></i>
+				<i class="far fa-play-circle footer_icon"></i>
+				<i class="fas fa-step-forward footer_icon"></i>
+				<i class="fas fa-recycle footer_icon"></i>
+			</div>
+			<div class="footer_mid_time">
+				<div>0:15</div>
+				<div class="footer_progress" style="top: 8px;">
+					<div class="footer_progress-active" style="width:50%;"></div>
+				</div>
+				<div>2:58</div>
+			</div>
+		</div>
+		<div class="footer_right">
+			<div class="footer_right_icon">
+				<i class="fas fa-microphone footer_icon"></i>
+				<i class="fas fa-list footer_icon"></i>
+				<i class="fas fa-tv footer_icon"></i>
+				<i class="fas fa-volume-up footer_icon"></i>
+			</div>
+			<div class="footer_progress" style="width: 30%">
+                <div class="footer_progress-active" style="width:50%; background-color: grey;"></div>
+			</div>
+			<div><i class="fas fa-expand-alt footer_icon"></i></div>
+		</div>
+	</div>
+</body>
+</html>
