@@ -9,44 +9,41 @@
 			justify-content: space-between;
 			margin: 10px;
 		}
-		.footer--left{
+		.footer__song{
 			width: 30%;
 			display: flex;
 
 		}
-		.footer--left__word{
+		.footer__song--word{
 			display: flex;
 			flex-direction: column;
 			margin-left: 8px;
 			margin-right: 8px;
 		}
-		.footer--mid{
+		.footer__time{
 			width: 40%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 		}
-		.footer--mid__time{
+		.footer__time--timeline{
 			display: flex;
 			justify-content: space-between;
 			width: 100%;
 		}
-		.footer--right{
+		.footer__volume{
 			width: 30%;
 			justify-content: flex-end;
 			align-items: center;
 			display: flex;
 		}
-		.footer--right__icon{
-
-		}
-		.footer__progress{
+		.progress_bar{
 			height: 5px;
       		background-color: #e9ecef;
       		position: relative;
       		width: 85%;
 		}
-		.footer__progress--active{
+		.progress_bar--active{
       		height: 100%;
       		position: absolute;
       		background-color: grey;
@@ -60,16 +57,16 @@
 </head>
 <body>
 	<div class="footer">
-		<div class="footer--left">
+		<div class="footer__song">
 			<img src="Song.jpg"width="40" height="40">
-			<div class="footer--left__word">
+			<div class="footer__song--word">
 				<div>Raincoat...</div>
 				<div>Kieron...</div>
 			</div>
 			<i class="far fa-heart footer__icon"></i>
 			<i class="fas fa-ban footer__icon"></i>
 		</div>
-		<div class="footer--mid">
+		<div class="footer__time">
 			<div>
 				<i class="fas fa-exchange-alt footer__icon"></i>
 				<i class="fas fa-step-backward footer__icon"></i>
@@ -77,21 +74,21 @@
 				<i class="fas fa-step-forward footer__icon"></i>
 				<i class="fas fa-recycle footer__icon"></i>
 			</div>
-			<div class="footer--mid__time">
+			<div class="footer__time--timeline">
 				<div>0:15</div>
-				<div class="footer__progress" style="top: 8px;">
-					<div class="footer__progress--active" style="width:50%;"></div>
+				<div class="progress_bar" style="top: 8px;">
+					<div class="progress_bar--active" style="width:50%;"></div>
 				</div>
 				<div>2:58</div>
 			</div>
 		</div>
-		<div class="footer--right">
+		<div class="footer__volume">
 			<i class="fas fa-microphone footer__icon"></i>
 			<i class="fas fa-list footer__icon"></i>
 			<i class="fas fa-tv footer__icon"></i>
 			<i class="fas fa-volume-up footer__icon"></i>
-			<div class="footer__progress" style="width: 30%">
-                <div class="footer__progress--active" style="width:50%; background-color: grey;"></div>
+			<div class="progress_bar" style="width: 30%">
+                <div class="progress_bar--active" style="width:50%; background-color: grey;"></div>
 			</div>
 			<i class="fas fa-expand-alt footer__icon"></i>
 		</div>
