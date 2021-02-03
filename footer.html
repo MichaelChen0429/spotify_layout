@@ -9,47 +9,47 @@
 			justify-content: space-between;
 			margin: 10px;
 		}
-		.footer__song_title{
+		.song-title{
 			width: 30%;
 			display: flex;
 
 		}
-		.footer__song_title--word{
+		.song-title__word{
 			display: flex;
 			flex-direction: column;
 			margin-left: 8px;
 			margin-right: 8px;
 		}
-		.footer__time{
+		.time{
 			width: 40%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 		}
-		.footer__time--timeline{
+		.time__timeline{
 			display: flex;
 			justify-content: space-between;
 			width: 100%;
 		}
-		.footer__volume{
+		.volume{
 			width: 30%;
 			justify-content: flex-end;
 			align-items: center;
 			display: flex;
 		}
-		.progress_bar{
+		.progress-bar{
 			height: 5px;
       		background-color: #e9ecef;
       		position: relative;
       		width: 85%;
 		}
-		.progress_bar--active{
+		.progress-bar__active{
       		height: 100%;
       		position: absolute;
       		background-color: grey;
 
     	}
-    	.footer__icon{
+    	.icon{
     		margin-right: 8px;
     		margin-left: 8px
     	}
@@ -57,40 +57,40 @@
 </head>
 <body>
 	<div class="footer">
-		<div class="footer__song_title">
+		<div class="song-title">
 			<img src="Song.jpg"width="40" height="40">
-			<div class="footer__song_title--word">
+			<div class="song-title__word">
 				<div>Raincoat...</div>
 				<div>Kieron...</div>
 			</div>
-			<i class="far fa-heart footer__icon"></i>
-			<i class="fas fa-ban footer__icon"></i>
+			<i class="far fa-heart icon"></i>
+			<i class="fas fa-ban icon"></i>
 		</div>
-		<div class="footer__time">
+		<div class="time">
 			<div>
-				<i class="fas fa-exchange-alt footer__icon"></i>
-				<i class="fas fa-step-backward footer__icon"></i>
-				<i class="far fa-play-circle footer__icon"></i>
-				<i class="fas fa-step-forward footer__icon"></i>
-				<i class="fas fa-recycle footer__icon"></i>
+				<i class="fas fa-exchange-alt icon"></i>
+				<i class="fas fa-step-backward icon"></i>
+				<i class="far fa-play-circle icon"></i>
+				<i class="fas fa-step-forward icon"></i>
+				<i class="fas fa-recycle icon"></i>
 			</div>
-			<div class="footer__time--timeline">
+			<div class="time__timeline">
 				<div>0:15</div>
-				<div class="progress_bar" style="top: 8px;">
-					<div class="progress_bar--active" style="width:50%;"></div>
+				<div class="progress-bar" style="top: 8px;">
+					<div class="progress-bar__active" style="width:50%;"></div>
 				</div>
 				<div>2:58</div>
 			</div>
 		</div>
-		<div class="footer__volume">
-			<i class="fas fa-microphone footer__icon"></i>
-			<i class="fas fa-list footer__icon"></i>
-			<i class="fas fa-tv footer__icon"></i>
-			<i class="fas fa-volume-up footer__icon"></i>
-			<div class="progress_bar" style="width: 30%">
-                <div class="progress_bar--active" style="width:50%; background-color: grey;"></div>
+		<div class="volume">
+			<i class="fas fa-microphone icon"></i>
+			<i class="fas fa-list icon"></i>
+			<i class="fas fa-tv icon"></i>
+			<i class="fas fa-volume-up icon"></i>
+			<div class="progress-bar" style="width: 30%">
+                <div class="progress-bar__active" style="width:50%; background-color: grey;"></div>
 			</div>
-			<i class="fas fa-expand-alt footer__icon"></i>
+			<i class="fas fa-expand-alt icon"></i>
 		</div>
 	</div>
 </body>
